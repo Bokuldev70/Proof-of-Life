@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: #F9F6F0;
+  --color-tomato: #E04D36;
+  --color-pink: #D94F70;
+  --color-yellow: #F2D06B;
+  --color-teal: #6B9A9A;
+  --color-navy: #1A2B3C;
+  --color-oxblood: #4A1525;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-navy);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom Utilities */
+.bg-cream { background-color: var(--color-cream); }
+.bg-tomato { background-color: var(--color-tomato); }
+.bg-pink { background-color: var(--color-pink); }
+.bg-yellow { background-color: var(--color-yellow); }
+.bg-teal { background-color: var(--color-teal); }
+.bg-navy { background-color: var(--color-navy); }
+.bg-oxblood { background-color: var(--color-oxblood); }
+
+.text-cream { color: var(--color-cream); }
+.text-tomato { color: var(--color-tomato); }
+.text-pink { color: var(--color-pink); }
+.text-yellow { color: var(--color-yellow); }
+.text-teal { color: var(--color-teal); }
+.text-navy { color: var(--color-navy); }
+.text-oxblood { color: var(--color-oxblood); }
+
+.border-cream { border-color: var(--color-cream); }
+.border-tomato { border-color: var(--color-tomato); }
+.border-pink { border-color: var(--color-pink); }
+.border-yellow { border-color: var(--color-yellow); }
+.border-teal { border-color: var(--color-teal); }
+.border-navy { border-color: var(--color-navy); }
+.border-oxblood { border-color: var(--color-oxblood); }
